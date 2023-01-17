@@ -16,4 +16,3 @@ jobs:
         with:
           branch: releases/v4
           folder: .
-          
