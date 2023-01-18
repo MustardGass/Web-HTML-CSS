@@ -218,5 +218,11 @@ body {font-family: sans-serif;}
 }
 
 .imgcenter {
-  padding-left: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.imgcenter img {
+  height: 200px;
+  padding-left: 30px;
 }
