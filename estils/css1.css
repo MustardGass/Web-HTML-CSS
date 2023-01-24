@@ -226,3 +226,66 @@ body {font-family: sans-serif;}
   height: 200px;
   padding-left: 30px;
 }
+
+.formacio{
+  display: flex;
+  justify-content: center;
+  align-items:stretch;
+  row-gap: 10px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.formaciolist{
+  width: 12%;
+  border: solid;
+  border-width: 2px;
+  border-color: #8ee4af;
+  border-radius: 5px;
+  padding:5px;
+  line-height: 30px;
+  padding-left: 0px;
+  margin-bottom: 4%;
+}
+
+.formaciolist h4{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.inscripcions{
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.formularicontacte{
+  display: flex;
+  justify-content: left;
+  border: solid;
+  border-color: #5cdb95;
+  background-color: #c4ffde;
+  padding-left: 10%;
+  font-family: sans-serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 20px;
+  
+}
+.formularicontacte label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.formularicontacte input{
+  padding-bottom: 15%;
+  padding-right: 150%;
+  border: solid;
+  border-color: #5cdb95;
+  background-color: #c4ffde;
+  border-radius: 10px;
+  margin-bottom:10%;
+  font-size: 15px;
+}
+
