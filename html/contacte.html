@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estils/css1.css">
+    <link href="../estils/formulario.css" rel="stylesheet" type="text/css">
+    <title>Institut Ouran</title>
+</head>
+<body>
+    <header>
+
+        <div class="img1header">
+            <p class="titol"><img class="logo" src="../imatges/logoflor.png"> Institut Ouran</p>  
+           
+            <p class="texttitol">
+                ·Educació secundaria obligatoria<br>
+                ·Batxillerat<br>
+                ·Cicles formatius de grau mitjà<br>
+                ·Cicles formatius de grau superior<br>
+            </p>
+            
+        </div>
+        
+        <nav class="navbar">
+            <a href="../index.html">Inici</a> 
+            <a href="quisom.html">Quí som?</a> 
+            <a href="secretaria.html">Secretaria</a>
+            <a href="marespares.html">Informació pares i mares</a>
+            <a class="active "href="#">Contacte</a>
+        </nav>
+        
+    </header>
+
+    <section>
+        <div style="width: 70%;" class="contact_form">
+
+            <div class="formulario">      
+              <h1>Formulari de contacte</h1>
+                <h3>Tens dubtes? Contacta amb nosaltres!</h3>
+        
+        
+                  <form action="submeter-formulario.php" method="post">       
+        
+                    
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nom
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input style="width: 90%;" type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escriu el teu nom">
+                        </p>
+                      
+                        <p>
+                          <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input style="width: 90%;" type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escriu el teu Email">
+                        </p>
+                    
+                        <p>
+                          <label for="telefone" class="colocar_telefono">Telèfon
+                          </label>
+                            <input style="width: 90%;" type="tel" name="introducir_telefono" id="telefono" placeholder="Escriu el teu telèfon">
+                        </p>        
+                      
+                        <p>
+                          <label for="asunto" class="colocar_asunto">Assumpte
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input style="width: 90%;" type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escriu un assumpte">
+                        </p>    
+                      
+                        <p>
+                          <label for="mensaje" class="colocar_mensaje">Missatge
+                            <span class="obligatorio">*</span>
+                          </label>                     
+                                            <textarea style="width: 90%;" name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deixa aquí el teu comentari..."></textarea> 
+                                        </p>                    
+                      
+                        <button style="width: 90%;" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>els camps són obligatoris
+                        </p>          
+                  </form>
+            </div>  
+          </div>
+
+    </section>       
+</body>
+
+<footer>
+    <div class="footer">
+        <div>
+            <p>Aquesta web és d'ús acadèmic.</p>
+            <p>Hug Francino Muñoz - M04 Llenguatge de marques - Creació d'una pàgina web amb HTML5 i CSS</p>
+        </div>
+    </div>
+</footer>
+</html>
