@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>El meu RSS a la web</title>
+        <link>https://www.elmundotoday.com</link>
+        <description>Software and hardware news</description>
+        
+        <item>
+            <title>Expulsat d'una classe d'informàtica per copiar i empegar</title>
+            <link>https://www.elmundotoday.com/2016/02/expulsado-de-una-clase-de-informatica-por-copiar-y-pegar/</link>
+            <description>Expulsen un alumne del grau superior de DAW per copiar i empegar una linia de codi al seu exàmen.</description>
+            <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
+        </item>
+        
+        <item>
+            <title>El Pare Noel obligat a fer classes d'informàtica</title>
+            <link>https://www.elmundotoday.com/2015/12/papa-noel-obligado-a-recibir-clases-de-informatica-para-aprender-a-regalar-contenido-descargable-del-call-of-duty/</link>
+            <description>El Pare Noel és obligat a rebre classes d'informàtica degut a que molts nens han demanat contingut descarregable del videojoc Call of Duty i no sap com enviar-lis el regal.</description>
+            <pubDate>Wed, 02 Oct 2002 09:00:00 EST</pubDate>
+        </item>
+        
+        <item>
+            <title>Univers de Matrix oboslet?</title>
+            <link>https://www.elmundotoday.com/2021/09/se-ha-quedado-anticuado-el-universo-matrix/</link>
+            <description>Degut a la creaeció del metavers, els 4 usuaris que hi accedeixen donen la noticia de que l'univers de Matrix ha quedat obsolet.</description>
+            <pubDate>Wed, 02 Oct 2002 10:00:00 EST</pubDate>
+        </item>
+        
+    </channel>
+</rss>
